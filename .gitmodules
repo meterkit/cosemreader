@@ -1,0 +1,3 @@
+[submodule "cosemlib"]
+	path = cosemlib
+	url = https://github.com/meterkit/cosemlib
