@@ -4,3 +4,9 @@
 [submodule "cosemclient"]
 	path = cosemclient
 	url = https://github.com/meterkit/cosemclient
+[submodule "build"]
+	path = build
+	url = https://github.com/brasserie/build
+[submodule "icl"]
+	path = icl
+	url = https://github.com/arabine/icl
