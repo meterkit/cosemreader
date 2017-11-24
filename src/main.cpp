@@ -40,7 +40,7 @@ int main(int argc, char **argv)
 
         if (argc >= 5)
         {
-            client.SetStartDate(std::string(argv[4])); // endDate for the profiles
+            client.SetEndDate(std::string(argv[4])); // endDate for the profiles
         }
 
         // Before application, test connectivity
