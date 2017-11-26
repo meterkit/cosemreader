@@ -38,7 +38,7 @@ export OUTDIR
 LIB_METER				:= cosemlib/share/crypto cosemlib/share/util cosemlib/hdlc cosemlib/share/serial
 LIB_COSEM				:= cosemlib/src
 LIB_CAPTEL				:= src
-LIB_CLIENT				:= cosemclient/lib
+LIB_CLIENT				:= cosemclient/lib cosemclient/src
 LIB_ICL					:= icl
 
 # *******************************************************************************
