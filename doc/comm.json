@@ -1,33 +1,14 @@
 {
-    "version": "1.0.0",
-    "protocol": "hdlc",
-    "device": "modem",
+	"version": "1.0.0",
 
-    "serial" : {
-            "port": "/dev/ttyUSB0",
-            "baudrate": 9600
-    },
+	"serial": {
+   	  "baudrate": 9600,
+	  "port": "/dev/ttyUSB0"
+	},
 
-    "modem": {
-       "init": "AT",
-       "phone": "0645938890"
-    },
-
-    "hdlc": {
-            "phy_addr": 17,
-            "address_size": 4,
-            "client": 1,
-            "logical_device": 1
-    },
-    
-    "ip": {
-       "transport": "tcp",
-       "address": "192.168.1.63",
-       "port": 703
-    },
-
-    "cosem": {
-     "lls": "ABCDEFGH"
-     }
-
+	"ip": {
+	   "transport": "tcp",
+	   "address": "192.168.1.63",
+	   "port": 703
+	}
 }
