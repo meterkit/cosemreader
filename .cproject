@@ -25,6 +25,7 @@
 									<listOptionValue builtIn="false" value="__cplusplus=201103L"/>
 									<listOptionValue builtIn="false" value="_GLIBCXX_USE_C99_STDINT_TR1"/>
 									<listOptionValue builtIn="false" value="_GLIBCXX_HAVE_STDINT_H"/>
+									<listOptionValue builtIn="false" value="USE_WINDOWS_OS"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1380878465" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -33,6 +34,7 @@
 									<listOptionValue builtIn="false" value="__cplusplus=201103UL"/>
 									<listOptionValue builtIn="false" value="_GLIBCXX_USE_C99_STDINT_TR1"/>
 									<listOptionValue builtIn="false" value="_GLIBCXX_HAVE_STDINT_H"/>
+									<listOptionValue builtIn="false" value="USE_WINDOWS_OS"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1155890305" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
