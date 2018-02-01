@@ -44,11 +44,13 @@ LIB_ICL					:= icl
 # *******************************************************************************
 # CLIENT CONFIGURATION
 # *******************************************************************************
-DEFINES += -DDEBUG=0
-
 APP_MODULES 	:= $(LIB_METER) $(LIB_COSEM) $(LIB_CAPTEL) $(LIB_CLIENT) $(LIB_ICL)
 APP_LIBPATH 	:= 
 APP_LIBS 		:= 
+
+DEFINES += -DDEBUG=0
+DEFINES += -DCOSEM_CLIENT_VER=\"1.0.0\"
+
 
 # *******************************************************************************
 # BUILD ENGINE
