@@ -49,7 +49,7 @@ APP_LIBPATH 	:=
 APP_LIBS 		:= 
 
 DEFINES += -DDEBUG=0
-DEFINES += -DCOSEM_CLIENT_VER=\"1.0.0\"
+DEFINES += -DCOSEM_CLIENT_VER=\"1.1.0\"
 
 
 # *******************************************************************************
