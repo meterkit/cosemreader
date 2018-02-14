@@ -5,6 +5,12 @@ CapTel DLMS/COSEM Client software
 
 # Change history
 
+## Version 1.2.0
+
+  * Add HDLC retry in case of bad communication channel (partial frame received)
+  * Oversized the Application buffer from 200KB to 2MB
+  * Better management of authentication in case of bad security key (explicit error message)
+
 ## Version 1.1.0
 
   * Generation of a communication report for each meter, XML format (_result.xml)
