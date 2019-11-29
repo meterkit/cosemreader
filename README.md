@@ -1,7 +1,7 @@
 
-# CaptelCosem
+# CosemReader
 
-CapTel DLMS/COSEM Client software
+Example of DLMS/COSEM Client software with XML export of read data.
 
 # Change history
 
